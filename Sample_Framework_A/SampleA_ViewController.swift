@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Sample_Framework_B
+@_implementationOnly import Sample_Framework_B
 
 public final class SampleFrameworkA {
     public init() {}
