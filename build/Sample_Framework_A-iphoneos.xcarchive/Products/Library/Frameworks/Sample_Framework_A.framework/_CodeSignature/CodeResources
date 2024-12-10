@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/Sample_Framework_B.framework/Sample_Framework_B</key>
 		<data>
-		7oBy2nj75hY9lpJ5FwrAJ3Ykdig=
+		JIXK4p9J+bgAQ3rrH3tKNxGZBZw=
 		</data>
 		<key>Frameworks/Sample_Framework_B.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Ky8xXe+JpDrss8HMfsYqsAIWj5g=
+		rNoTg6RSI6L/QYA0uL+BfY+AFl0=
 		</data>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		vXm7XnR+Lafb8RlRrrCXmWUxIVE=
+		PmmCOxI4wF4sH401oB+BEwG1f1Q=
 		</data>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		vXm7XnR+Lafb8RlRrrCXmWUxIVE=
+		PmmCOxI4wF4sH401oB+BEwG1f1Q=
 		</data>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Nfv+3J2plXz9VwKyMxJK0jzZDpg=
+		k40RaV0syLI/NuYhT7XIadqG+aQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>SampleA_ViewController.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		GDOmAxokfCpgDJ5sBV4Pkwl6wqM=
+		um2TI8Ef2TeVrFSoXuUrYGPPmG8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CJAlmpoSlHRihrsXPP0XGf62CFko/Ifcx4xQCafUREY=
+			MVRqO3bRhXZnUtUVssdAMZvEN5wVJZIkwFdIdiDlMIo=
 			</data>
 		</dict>
 		<key>Frameworks/Sample_Framework_B.framework/_CodeSignature/CodeResources</key>
@@ -106,14 +106,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2fk+2RmQJ4KbAn3PAmj4OzYIO6I03coyTugsgRnNlvs=
+			VNSFoXjBzOVBeNmTJSy8umYbogNqlBjJDVOHTPV++VA=
 			</data>
 		</dict>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ht7/1aJF2xzcDdDFcx7pnVFgNRquv7NOXUXGVEGnBcY=
+			8m6ewHM8ukRT1zc5lYyuTaj0d0+gitTEdsZilw3m7xg=
 			</data>
 		</dict>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -127,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ht7/1aJF2xzcDdDFcx7pnVFgNRquv7NOXUXGVEGnBcY=
+			8m6ewHM8ukRT1zc5lYyuTaj0d0+gitTEdsZilw3m7xg=
 			</data>
 		</dict>
 		<key>Modules/Sample_Framework_A.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mQuU38QGwkf3FMIkQHtwqrV8ARcQe9hG3HWHbyPqQRk=
+			c3slRVZSKQxKhbhxasT1lZgMUKkkiv3swonIPdZRa7c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QqeRffc1EodqkuL/fVL6Q9unE5Syx38wh6ydxMSZOnA=
+			wS2qFnDgpYoF1lZCAIFNWNCNlH9V12ia52kwRYInVIw=
 			</data>
 		</dict>
 	</dict>

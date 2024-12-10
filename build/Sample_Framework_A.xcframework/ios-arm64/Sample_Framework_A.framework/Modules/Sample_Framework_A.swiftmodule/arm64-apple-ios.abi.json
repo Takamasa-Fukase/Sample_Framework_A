@@ -29,7 +29,10 @@
         "name": "Sample_Framework_B",
         "printedName": "Sample_Framework_B",
         "declKind": "Import",
-        "moduleName": "Sample_Framework_A"
+        "moduleName": "Sample_Framework_A",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -77,27 +80,6 @@
             "declKind": "Func",
             "usr": "s:18Sample_Framework_A0aB1AC07presentA4A_VC2onySo16UIViewControllerC_tF",
             "mangledName": "$s18Sample_Framework_A0aB1AC07presentA4A_VC2onySo16UIViewControllerC_tF",
-            "moduleName": "Sample_Framework_A",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateImage",
-            "printedName": "updateImage()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:18Sample_Framework_A0aB1AC11updateImageyyF",
-            "mangledName": "$s18Sample_Framework_A0aB1AC11updateImageyyF",
             "moduleName": "Sample_Framework_A",
             "declAttributes": [
               "Final",
