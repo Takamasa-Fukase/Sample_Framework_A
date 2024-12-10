@@ -12,7 +12,8 @@ public final class SampleFrameworkA {
     
     public func presentSampleA_VC(on presentingVC: UIViewController) {
         print("FW_A presentSampleA_VC")
-        let vc = UIStoryboard(name: "SampleA_ViewController", bundle: .).instantiateInitialViewController() as! SampleA_ViewController
+        let bundle = Bundle(for: SampleFrameworkA.self)
+        let vc = UIStoryboard(name: "SampleA_ViewController", bundle: bundle).instantiateInitialViewController() as! SampleA_ViewController
         presentingVC.present(vc, animated: true)
     }
 }
