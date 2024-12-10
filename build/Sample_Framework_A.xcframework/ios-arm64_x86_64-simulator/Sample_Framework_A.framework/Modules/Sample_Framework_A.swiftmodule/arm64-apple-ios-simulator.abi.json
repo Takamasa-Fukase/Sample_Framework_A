@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Sample_Framework_A",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SampleFrameworkA",
+        "printedName": "SampleFrameworkA",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SampleFrameworkA",
+                "printedName": "Sample_Framework_A.SampleFrameworkA",
+                "usr": "s:18Sample_Framework_A0aB1AC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18Sample_Framework_A0aB1ACACycfc",
+            "mangledName": "$s18Sample_Framework_A0aB1ACACycfc",
+            "moduleName": "Sample_Framework_A",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "presentSampleA_VC",
+            "printedName": "presentSampleA_VC(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18Sample_Framework_A0aB1AC07presentA4A_VC2onySo16UIViewControllerC_tF",
+            "mangledName": "$s18Sample_Framework_A0aB1AC07presentA4A_VC2onySo16UIViewControllerC_tF",
+            "moduleName": "Sample_Framework_A",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18Sample_Framework_A0aB1AC",
+        "mangledName": "$s18Sample_Framework_A0aB1AC",
+        "moduleName": "Sample_Framework_A",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

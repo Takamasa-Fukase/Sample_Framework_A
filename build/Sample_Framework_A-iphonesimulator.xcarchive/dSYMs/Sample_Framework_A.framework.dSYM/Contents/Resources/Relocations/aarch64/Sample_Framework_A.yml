@@ -1,0 +1,22 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ultrafukase/Library/Developer/Xcode/DerivedData/Sample_Framework_A-hjzjfiftsrzyovbkbswfjylnexac/Build/Intermediates.noindex/ArchiveIntermediates/Sample_Framework_A/InstallationBuildProductsLocation/Library/Frameworks/Sample_Framework_A.framework/Sample_Framework_A'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x54648, size: 0x8, addend: 0x0, symName: _Sample_Framework_AVersionString, symObjAddr: 0x0, symBinAddr: 0x3B90, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5467D, size: 0x8, addend: 0x0, symName: _Sample_Framework_AVersionNumber, symObjAddr: 0x40, symBinAddr: 0x3BD0, symSize: 0x0 }
+  - { offsetInCU: 0xEF, offset: 0x54782, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x190, symBinAddr: 0x3774, symSize: 0x40 }
+  - { offsetInCU: 0x103, offset: 0x54796, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerCMa', symObjAddr: 0x1D0, symBinAddr: 0x37B4, symSize: 0x20 }
+  - { offsetInCU: 0x117, offset: 0x547AA, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0aB1ACMa', symObjAddr: 0x208, symBinAddr: 0x37EC, symSize: 0x20 }
+  - { offsetInCU: 0x14D, offset: 0x547E0, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerC06sampleb6B_BaseC0So6UIViewCSgvgTo', symObjAddr: 0x23C, symBinAddr: 0x3820, symSize: 0x20 }
+  - { offsetInCU: 0x1A5, offset: 0x54838, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerC06sampleb6B_BaseC0So6UIViewCSgvsTo', symObjAddr: 0x25C, symBinAddr: 0x3840, symSize: 0x14 }
+  - { offsetInCU: 0x200, offset: 0x54893, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x270, symBinAddr: 0x3854, symSize: 0x3C }
+  - { offsetInCU: 0x25B, offset: 0x548EE, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x2AC, symBinAddr: 0x3890, symSize: 0xD0 }
+  - { offsetInCU: 0x2B1, offset: 0x54944, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x37C, symBinAddr: 0x3960, symSize: 0x64 }
+  - { offsetInCU: 0x30F, offset: 0x549A2, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerCfETo', symObjAddr: 0x414, symBinAddr: 0x39F8, symSize: 0x10 }
+  - { offsetInCU: 0x46F, offset: 0x54B02, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0aB1ACACycfC', symObjAddr: 0x0, symBinAddr: 0x35E4, symSize: 0x10 }
+  - { offsetInCU: 0x483, offset: 0x54B16, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0aB1ACACycfc', symObjAddr: 0x10, symBinAddr: 0x35F4, symSize: 0x8 }
+  - { offsetInCU: 0x4D5, offset: 0x54B68, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0aB1AC07presentA4A_VC2onySo16UIViewControllerC_tF', symObjAddr: 0x18, symBinAddr: 0x35FC, symSize: 0x178 }
+  - { offsetInCU: 0x5A8, offset: 0x54C3B, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0aB1ACfd', symObjAddr: 0x1F0, symBinAddr: 0x37D4, symSize: 0x8 }
+  - { offsetInCU: 0x5CD, offset: 0x54C60, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0aB1ACfD', symObjAddr: 0x1F8, symBinAddr: 0x37DC, symSize: 0x10 }
+  - { offsetInCU: 0x6B5, offset: 0x54D48, size: 0x8, addend: 0x0, symName: '_$s18Sample_Framework_A0A16A_ViewControllerCfD', symObjAddr: 0x3E0, symBinAddr: 0x39C4, symSize: 0x34 }
+...
