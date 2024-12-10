@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC552BBC2D08A1D400E343FD /* Sample_Framework_B.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC552BBB2D08A1D400E343FD /* Sample_Framework_B.xcframework */; };
+		BC552BBD2D08A1D400E343FD /* Sample_Framework_B.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC552BBB2D08A1D400E343FD /* Sample_Framework_B.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BC552BC02D08A2AC00E343FD /* UIView+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC552BBF2D08A2AC00E343FD /* UIView+Constraint.swift */; };
 		BCDBD7F62D08824300615A94 /* Sample_Framework_A.docc in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD7F52D08824300615A94 /* Sample_Framework_A.docc */; };
 		BCDBD7FC2D08824400615A94 /* Sample_Framework_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDBD7F12D08824300615A94 /* Sample_Framework_A.framework */; };
 		BCDBD8012D08824400615A94 /* Sample_Framework_ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD8002D08824400615A94 /* Sample_Framework_ATests.swift */; };
@@ -25,7 +28,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BC552BBE2D08A1D400E343FD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC552BBD2D08A1D400E343FD /* Sample_Framework_B.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		BC552BBB2D08A1D400E343FD /* Sample_Framework_B.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sample_Framework_B.xcframework; path = ../Sample_Framework_B/build/Sample_Framework_B.xcframework; sourceTree = "<group>"; };
+		BC552BBF2D08A2AC00E343FD /* UIView+Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraint.swift"; sourceTree = "<group>"; };
 		BCDBD7F12D08824300615A94 /* Sample_Framework_A.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sample_Framework_A.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDBD7F42D08824300615A94 /* Sample_Framework_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sample_Framework_A.h; sourceTree = "<group>"; };
 		BCDBD7F52D08824300615A94 /* Sample_Framework_A.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Sample_Framework_A.docc; sourceTree = "<group>"; };
@@ -40,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC552BBC2D08A1D400E343FD /* Sample_Framework_B.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC552BBA2D08A1D400E343FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC552BBB2D08A1D400E343FD /* Sample_Framework_B.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCDBD7E72D08824300615A94 = {
 			isa = PBXGroup;
 			children = (
 				BCDBD7F32D08824300615A94 /* Sample_Framework_A */,
 				BCDBD7FF2D08824400615A94 /* Sample_Framework_ATests */,
 				BCDBD7F22D08824300615A94 /* Products */,
+				BC552BBA2D08A1D400E343FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +107,7 @@
 				BCDBD7F42D08824300615A94 /* Sample_Framework_A.h */,
 				BCDBD80B2D08833100615A94 /* SampleA_ViewController.swift */,
 				BCDBD80D2D08833B00615A94 /* SampleA_ViewController.storyboard */,
+				BC552BBF2D08A2AC00E343FD /* UIView+Constraint.swift */,
 				BCDBD7F52D08824300615A94 /* Sample_Framework_A.docc */,
 			);
 			path = Sample_Framework_A;
@@ -113,6 +143,7 @@
 				BCDBD7ED2D08824300615A94 /* Sources */,
 				BCDBD7EE2D08824300615A94 /* Frameworks */,
 				BCDBD7EF2D08824300615A94 /* Resources */,
+				BC552BBE2D08A1D400E343FD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC552BC02D08A2AC00E343FD /* UIView+Constraint.swift in Sources */,
 				BCDBD80C2D08833100615A94 /* SampleA_ViewController.swift in Sources */,
 				BCDBD7F62D08824300615A94 /* Sample_Framework_A.docc in Sources */,
 			);

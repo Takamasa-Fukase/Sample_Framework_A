@@ -6,23 +6,39 @@
 //
 
 import UIKit
+import Sample_Framework_B
 
 public final class SampleFrameworkA {
     public init() {}
     
+    private var vc: SampleA_ViewController!
+    
     public func presentSampleA_VC(on presentingVC: UIViewController) {
         print("FW_A presentSampleA_VC")
         let bundle = Bundle(for: SampleFrameworkA.self)
-        let vc = UIStoryboard(name: "SampleA_ViewController", bundle: bundle).instantiateInitialViewController() as! SampleA_ViewController
+        vc = UIStoryboard(name: "SampleA_ViewController", bundle: bundle).instantiateInitialViewController()
         presentingVC.present(vc, animated: true)
+    }
+    
+    public func updateImage() {
+        vc.updateImage()
     }
 }
 
 final class SampleA_ViewController: UIViewController {
+    var imageDisplayView: ImageDisplayView!
 
     @IBOutlet weak var sampleFrameworkB_BaseView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        imageDisplayView = ImageDisplayView(frame: view.frame)
+        sampleFrameworkB_BaseView.addSubview(imageDisplayView)
+        sampleFrameworkB_BaseView.addConstraints(for: imageDisplayView)
+    }
+    
+    func updateImage() {
+        imageDisplayView.updateImage()
     }
 }
