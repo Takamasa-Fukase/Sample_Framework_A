@@ -11,6 +11,8 @@
 		BCDBD7FC2D08824400615A94 /* Sample_Framework_A.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDBD7F12D08824300615A94 /* Sample_Framework_A.framework */; };
 		BCDBD8012D08824400615A94 /* Sample_Framework_ATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD8002D08824400615A94 /* Sample_Framework_ATests.swift */; };
 		BCDBD8022D08824400615A94 /* Sample_Framework_A.h in Headers */ = {isa = PBXBuildFile; fileRef = BCDBD7F42D08824300615A94 /* Sample_Framework_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCDBD80C2D08833100615A94 /* SampleA_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD80B2D08833100615A94 /* SampleA_ViewController.swift */; };
+		BCDBD80E2D08833B00615A94 /* SampleA_ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDBD80D2D08833B00615A94 /* SampleA_ViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		BCDBD7F52D08824300615A94 /* Sample_Framework_A.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Sample_Framework_A.docc; sourceTree = "<group>"; };
 		BCDBD7FB2D08824400615A94 /* Sample_Framework_ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sample_Framework_ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDBD8002D08824400615A94 /* Sample_Framework_ATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Framework_ATests.swift; sourceTree = "<group>"; };
+		BCDBD80B2D08833100615A94 /* SampleA_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleA_ViewController.swift; sourceTree = "<group>"; };
+		BCDBD80D2D08833B00615A94 /* SampleA_ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleA_ViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				BCDBD7F42D08824300615A94 /* Sample_Framework_A.h */,
+				BCDBD80B2D08833100615A94 /* SampleA_ViewController.swift */,
+				BCDBD80D2D08833B00615A94 /* SampleA_ViewController.storyboard */,
 				BCDBD7F52D08824300615A94 /* Sample_Framework_A.docc */,
 			);
 			path = Sample_Framework_A;
@@ -177,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDBD80E2D08833B00615A94 /* SampleA_ViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDBD80C2D08833100615A94 /* SampleA_ViewController.swift in Sources */,
 				BCDBD7F62D08824300615A94 /* Sample_Framework_A.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +419,7 @@
 		BCDBD8092D08824400615A94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37MFDT4LMQ;
@@ -427,6 +436,7 @@
 		BCDBD80A2D08824400615A94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 37MFDT4LMQ;
