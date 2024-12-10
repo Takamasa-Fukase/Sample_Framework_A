@@ -23,19 +23,33 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3KV-sZ-HXk">
-                                <rect key="frame" x="32" y="125" width="329" height="693"/>
+                                <rect key="frame" x="32" y="125" width="329" height="553"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C12-Qs-6eK">
+                                <rect key="frame" x="16" y="710" width="361" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="85T-dQ-gei"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="UpdateImage"/>
+                                <connections>
+                                    <action selector="updateImageButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="fOa-SQ-2TY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <constraints>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="3KV-sZ-HXk" secondAttribute="bottom" id="5DF-Ux-gpr"/>
                             <constraint firstItem="49N-9s-Vbb" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="E9i-hf-BaG"/>
                             <constraint firstItem="3KV-sZ-HXk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="Ryg-OX-srd"/>
                             <constraint firstItem="49N-9s-Vbb" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="b0X-zr-jAy"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="C12-Qs-6eK" secondAttribute="bottom" constant="60" id="dei-YF-6S6"/>
                             <constraint firstItem="3KV-sZ-HXk" firstAttribute="top" secondItem="49N-9s-Vbb" secondAttribute="bottom" constant="32" id="hqh-ry-sbb"/>
+                            <constraint firstItem="C12-Qs-6eK" firstAttribute="top" secondItem="3KV-sZ-HXk" secondAttribute="bottom" constant="32" id="lhT-t2-Yc7"/>
+                            <constraint firstItem="C12-Qs-6eK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="svc-dX-Gda"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="3KV-sZ-HXk" secondAttribute="trailing" constant="32" id="yC8-bR-DnN"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="C12-Qs-6eK" secondAttribute="trailing" constant="16" id="zFt-gK-51I"/>
                         </constraints>
                     </view>
                     <connections>
@@ -49,10 +63,10 @@
     </scenes>
     <resources>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

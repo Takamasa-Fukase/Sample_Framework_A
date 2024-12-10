@@ -19,10 +19,6 @@ public final class SampleFrameworkA {
         vc = UIStoryboard(name: "SampleA_ViewController", bundle: bundle).instantiateInitialViewController()
         presentingVC.present(vc, animated: true)
     }
-    
-    public func updateImage() {
-        vc.updateImage()
-    }
 }
 
 final class SampleA_ViewController: UIViewController {
@@ -38,7 +34,11 @@ final class SampleA_ViewController: UIViewController {
         sampleFrameworkB_BaseView.addConstraints(for: imageDisplayView)
     }
     
-    func updateImage() {
+    @IBAction func updateImageButtonTapped(_ sender: Any) {
+        updateImage()
+    }
+    
+    private func updateImage() {
         imageDisplayView.updateImage()
     }
 }
